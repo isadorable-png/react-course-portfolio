@@ -7,7 +7,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/react-course-portfolio/',
+  base: '/react-course-portfolio/', // Add this line!
+  server: {
     port: 3000,
   },
   build: {
