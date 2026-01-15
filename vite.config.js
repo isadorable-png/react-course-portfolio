@@ -7,10 +7,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  server: {
+  base: '/react-course-portfolio/',
     port: 3000,
   },
   build: {
-    outDir: 'docs' // Change from 'dist' to 'docs'
+    outDir: 'docs'
   }
 })
