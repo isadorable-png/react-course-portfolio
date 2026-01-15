@@ -10,4 +10,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: '/react-course-portfolio/', //this is the base path for the project
 })

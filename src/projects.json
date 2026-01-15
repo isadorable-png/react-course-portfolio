@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Anticapture",
+            "tags": "/Financial, branding, UX",
+            "description": "Anticapture is a platform that allows users to capture and share their moments with others.",
+            "imageUrl": "/src/assets/images/project-thumbnail-1.png",
+            "projectUrl": "https://www.anticapture.com"
+        },
+        {
+            "id": 2,
+            "name": "LoanSplit",
+            "tags": "/Financial, branding, UX",
+            "description": "Anticapture is a platform that allows users to capture and share their moments with others.",
+            "imageUrl": "/src/assets/images/project-thumbnail-1.png",
+            "projectUrl": "https://www.anticapture.com"
+        },
+        {
+            "id": 3,
+            "name": "Swaplace",
+            "tags": "/Financial, branding, UX",
+            "description": "Anticapture is a platform that allows users to capture and share their moments with others.",
+            "imageUrl": "/src/assets/images/project-thumbnail-1.png",
+            "projectUrl": "https://www.anticapture.com"
+        },
+        {
+            "id": 4,
+            "name": "Smart Inventory Financing",
+            "tags": "/Financial, branding, UX",
+            "description": "Anticapture is a platform that allows users to capture and share their moments with others.",
+            "imageUrl": "/src/assets/images/project-thumbnail-1.png",
+            "projectUrl": "https://www.anticapture.com"
+        }
+    ]
+}
