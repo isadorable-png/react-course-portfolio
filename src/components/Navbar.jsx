@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Logo from '../assets/images/isadora-logo.svg';
-import Divider from './Divider.jsx';
+import DotDivider from './DotDivider.jsx';
 
 const d = new Date();
 console.log(d);
@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className='text-zinc-400'>PT</div>
           <div className='text-zinc-400'>/</div>
           <div className='text-zinc-400'>Timezone:</div>
-          <div className='flex items-center gap-2'>BR <Divider /> {timezone}</div>
+          <div className='flex items-center gap-2'>BR <DotDivider /> {timezone}</div>
         </div>
       </div>
     </>

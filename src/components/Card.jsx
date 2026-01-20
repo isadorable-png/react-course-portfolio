@@ -5,7 +5,7 @@ function Card({ project }) {
     <>
       <div>
       </div>
-      <div className="group flex gap-6 items-center border border-zinc-800 p-4 hover:bg-zinc-900 transition-all duration-500">
+      <div className="group flex gap-6 items-center border border-zinc-900 p-4 hover:bg-zinc-950 transition-all duration-500">
         <img src={project.imageUrl} alt="Project Image" />
         <div className="flex flex-col justify-between h-full">
           <div>

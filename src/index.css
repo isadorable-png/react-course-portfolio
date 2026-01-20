@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
 
 @theme {
-  --font-mono: "Geist Mono", monospace;
+  --font-mono: "JetBrains Mono", monospace;
   --grid-70-30: 70% 28%;
   --tracking-3: 0.05em;
+  --color-card-bg: #0D0D10;
 }
