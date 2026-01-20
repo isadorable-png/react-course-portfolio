@@ -1,11 +1,10 @@
-import React from 'react'
-import Logo from '../assets/images/isadora-logo.svg';  //importing the logo image
+import React, { useState, useEffect } from 'react'
+import Logo from '../assets/images/isadora-logo.svg';
 import Divider from './Divider.jsx';
 
 const d = new Date();
 console.log(d);
-import React, { useState, useEffect } from 'react'
-import Logo from '../assets/images/isadora-logo.svg';
+
 
 const Navbar = () => {
   const [timezone, setTimezone] = useState('');
@@ -42,7 +41,7 @@ const Navbar = () => {
           <div className='text-zinc-400'>PT</div>
           <div className='text-zinc-400'>/</div>
           <div className='text-zinc-400'>Timezone:</div>
-          <div>{timezone}</div>
+          <div className='flex items-center gap-2'>BR <Divider /> {timezone}</div>
         </div>
       </div>
     </>
