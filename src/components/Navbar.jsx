@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/images/isadora-logo.svg';  //importing the logo image
+import Divider from './Divider.jsx';
 
 const d = new Date();
 console.log(d);
@@ -14,8 +15,8 @@ const Navbar = () => {
             <li>Work</li>
             <li>Contact</li>
         </ul>
-        <div>
-          {d.toLocaleDateString()} {d.toLocaleTimeString()} {d.getHours() < 12 ? 'AM' : 'PM'}
+        <div className='flex items-center gap-2'>
+          BR <Divider /> {d.toLocaleDateString()} {d.toLocaleTimeString()} {d.getHours() < 12 ? 'AM' : 'PM'}
         </div>
        </div>
     </>
