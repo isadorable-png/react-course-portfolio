@@ -11,15 +11,15 @@ const Hero = ( {name, role, expTime}) => {
         <div className='flex flex-col gap-4 h-full justify-between'>
           <div>
               <div className='text-zinc-400'>user<span className='text-pink-500'>.</span>name</div>
-              <div className='text-zinc-50'>{name}</div>
+              <div className='text-zinc-50 text-lg'>{name}</div>
           </div>
           <div>
               <div className='text-zinc-400'>user<span className='text-pink-500'>.</span>role</div>
-              <div className='text-zinc-50'>{role}</div>
+              <div className='text-zinc-50 text-lg'>{role}</div>
           </div>
           <div>
               <div className='text-zinc-400'>user<span className='text-pink-500'>.</span>expTime</div>
-              <div className='text-zinc-50'>{expTime}</div>
+              <div className='text-zinc-50  text-lg'>{expTime}</div>
           </div>
         </div>
         </div>
